@@ -45,7 +45,7 @@ int main()
     printf("for candidate %d",z);
     break;
     default:
-    printf("wrong choice");};
-{printf("thanks for voting!");
-    }
+    printf("wrong choice");}
+printf("thanks for voting!");
+    
 }

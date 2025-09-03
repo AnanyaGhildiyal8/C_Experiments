@@ -27,7 +27,7 @@ int main()
     }
     printf("do you wanna enter more values(y/n)");
     scanf(" %c",&l);
-    while(l=='y'||l=='y')
+    while(l=='y'||l=='Y')
     {printf("enter your vote");
     scanf("%d",&a);
     printf("your choice is %d",a);}

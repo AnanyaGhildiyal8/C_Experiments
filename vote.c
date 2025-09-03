@@ -30,7 +30,22 @@ int main()
     while(l=='y'||l=='Y')
     {printf("enter your vote");
     scanf("%d",&a);
-    printf("your choice is %d",a);}
+    switch(a)
+    {
+    case 1:
+    x+=1;
+    printf("for candidate %d",x);
+    break;
+    case 2:
+    y+=1;
+    printf("for candidate %d",y);
+    break;
+    case 3:
+    z+=1;
+    printf("for candidate %d",z);
+    break;
+    default:
+    printf("wrong choice")}
 {printf("thanks for voting!");
     }
 }
